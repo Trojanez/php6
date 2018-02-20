@@ -1,0 +1,26 @@
+h1 {
+	text-align: center;
+}
+p {
+	text-align: center;
+}
+#field {
+	text-align: center;
+}
+.littlefield {
+	margin: 1px;
+	width: 50px;
+	border: 1px solid black;
+	color: red;
+	font-weight: bold;
+}
+.btn {
+	margin-top: 20px;
+	width: 80px;
+	height: 30px;
+	color: orange;
+	background-color: black;
+	border: none;
+	border-radius: 15px;
+	cursor: pointer;
+}
