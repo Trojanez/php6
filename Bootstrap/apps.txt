@@ -1,0 +1,76 @@
+
+Max 52413243242 trojanez758@gmail.com 1983 fdsfdsfdsfds
+Sanya 66666 vf@mail.ru 1986 Hello!
+Dan 23432 dan@mail.ru 1984 Hello, my name is Dan !
+
+        <table>
+          <tr>
+            <td>Name:</td>
+            <td>$name</td>
+          </tr>
+          <tr>
+            <td>Phone:</td>
+            <td>$phone</td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td>$email</td>
+          </tr>
+          <tr>
+            <td>Birthday:</td>
+            <td>$option</td>
+          </tr>
+          <tr>
+            <td>Comment:</td>
+            <td>$comment</td>
+          </tr>
+        </table>
+      
+
+        <table>
+          <tr>
+            <td>Name:</td>
+            <td>$name</td>
+          </tr>
+          <tr>
+            <td>Phone:</td>
+            <td>$phone</td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td>$email</td>
+          </tr>
+          <tr>
+            <td>Birthday:</td>
+            <td>$option</td>
+          </tr>
+          <tr>
+            <td>Comment:</td>
+            <td>$comment</td>
+          </tr>
+        </table>
+      
+
+        <table>
+          <tr>
+            <td>Name:</td>
+            <td>Max</td>
+          </tr>
+          <tr>
+            <td>Phone:</td>
+            <td>132432322</td>
+          </tr>
+          <tr>
+            <td>Email:</td>
+            <td>trojanez758@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Birthday:</td>
+            <td>1991</td>
+          </tr>
+          <tr>
+            <td>Comment:</td>
+            <td>Hello, my name is max! Hehe</td>
+          </tr>
+        </table>
+      
