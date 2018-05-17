@@ -1,0 +1,196 @@
+#main h2 {
+	color: #0094FF;
+}
+#main .alcohol_products {
+	display: inline-block;
+	overflow: hidden;
+	height: 500px;
+}
+
+/* Водка */
+
+#main .alcohol_products .vodka {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 303px;
+	height: 203px;
+	margin-top: 25px;
+}
+#main .alcohol_products .vodka img {
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+}
+#main .alcohol_products .vodka:hover .vodka_name {
+	transition: .5s;
+	opacity: 1;
+}
+#main .alcohol_products .vodka .vodka_name {
+	width: 301px;
+	height: 40px;
+	background-color: rgba(0, 170, 238, 0.7);
+	position: absolute;
+	top: 150px;
+	transition: .5s;
+	opacity: 0;
+}
+#main .alcohol_products .vodka .vodka_name p {
+	padding-left: 15px;
+	line-height: 40px;
+}
+#main .alcohol_products .vodka .vodka_name p a {
+	font-size: 20px;
+	color: #fff;
+}
+
+/* Вино */
+
+#main .alcohol_products .vino {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 303px;
+	height: 203px;
+	margin-top: 15px;
+	margin-left: 90px;
+}
+#main .alcohol_products .vino img {
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+}
+#main .alcohol_products .vino:hover .vino_name {
+	transition: .5s;
+	opacity: 1;
+}
+#main .alcohol_products .vino .vino_name {
+	width: 301px;
+	height: 40px;
+	background-color: rgba(0, 170, 238, 0.7);
+	position: absolute;
+	top: 150px;
+	transition: .5s;
+	opacity: 0;
+}
+#main .alcohol_products .vino .vino_name p {
+	padding-left: 15px;
+	line-height: 40px;
+}
+#main .alcohol_products .vino .vino_name p a {
+	font-size: 20px;
+	color: #fff;
+}
+
+/* Коньяк */
+
+#main .alcohol_products .koniak {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 303px;
+	height: 203px;
+	margin-top: 15px;
+	margin-left: 90px;
+}
+#main .alcohol_products .koniak img {
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+}
+#main .alcohol_products .koniak:hover .koniak_name {
+	transition: .5s;
+	opacity: 1;
+}
+#main .alcohol_products .koniak .koniak_name {
+	width: 301px;
+	height: 40px;
+	background-color: rgba(0, 170, 238, 0.7);
+	position: absolute;
+	top: 150px;
+	transition: .5s;
+	opacity: 0;
+}
+#main .alcohol_products .koniak .koniak_name p {
+	padding-left: 15px;
+	line-height: 40px;
+}
+#main .alcohol_products .koniak .koniak_name p a {
+	font-size: 20px;
+	color: #fff;
+}
+
+/* Коньяк */
+
+#main .alcohol_products .exclusive {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 303px;
+	height: 203px;
+	margin-top: 15px;
+	margin-left: 90px;
+}
+#main .alcohol_products .exclusive img {
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+}
+#main .alcohol_products .exclusive:hover .exclusive_name {
+	transition: .5s;
+	opacity: 1;
+}
+#main .alcohol_products .exclusive .exclusive_name {
+	width: 301px;
+	height: 40px;
+	background-color: rgba(0, 170, 238, 0.7);
+	position: absolute;
+	top: 150px;
+	transition: .5s;
+	opacity: 0;
+}
+#main .alcohol_products .exclusive .exclusive_name p {
+	padding-left: 15px;
+	line-height: 40px;
+}
+#main .alcohol_products .exclusive .exclusive_name p a {
+	font-size: 20px;
+	color: #fff;
+}
+
+/* Шампанское */
+
+#main .alcohol_products .shampagne {
+	display: inline-block;
+	overflow: hidden;
+	position: relative;
+	width: 303px;
+	height: 203px;
+	margin-top: 15px;
+}
+#main .alcohol_products .shampagne img {
+	width: 300px;
+	height: 200px;
+	border: 1px solid black;
+}
+#main .alcohol_products .shampagne:hover .shampagne_name {
+	transition: .5s;
+	opacity: 1;
+}
+#main .alcohol_products .shampagne .shampagne_name {
+	width: 301px;
+	height: 40px;
+	background-color: rgba(0, 170, 238, 0.7);
+	position: absolute;
+	top: 150px;
+	transition: .5s;
+	opacity: 0;
+}
+#main .alcohol_products .shampagne .shampagne_name p {
+	padding-left: 15px;
+	line-height: 40px;
+}
+#main .alcohol_products .shampagne .shampagne_name p a {
+	font-size: 20px;
+	color: #fff;
+}

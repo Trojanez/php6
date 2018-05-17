@@ -1,0 +1,34 @@
+#main .auth_head {
+	font-size: 30px;
+	color: #151374;
+	text-align: center;
+}
+#main #auth_form {
+	width: 750px;
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+}
+#main #auth_form p {
+	color: #0094FF;
+	font-size: 22px;
+	float: right;
+	margin-right: 150px;
+	position: relative;
+}
+#main #auth_form input {
+	width: 250px !important;
+	height: 25px;
+	border-radius: 10px !important;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+#main #auth_form .button {
+	width: 100px !important;
+	height: 30px !important;
+	background-color: #0094FF;
+	border: none;
+	border-radius: 5px !important;
+	cursor: pointer;
+	color: #fff;
+}

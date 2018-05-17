@@ -1,0 +1,50 @@
+#main .reg_head {
+	font-size: 30px;
+	color: #151374;
+	text-align: center;
+}
+#main #reg_form {
+	width: 750px;
+	position: relative;
+	margin: auto;
+	margin-top: 20px;
+}
+#main #reg_form p {
+	color: #0094FF;
+	font-size: 22px;
+	float: right;
+	margin-right: 150px;
+	position: relative;
+}
+#main #reg_form input {
+	width: 250px !important;
+	height: 25px;
+	border-radius: 10px !important;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+#main #reg_form .button {
+	width: 100px !important;
+	height: 30px !important;
+	background-color: #0094FF;
+	border: none;
+	border-radius: 5px !important;
+	cursor: pointer;
+	color: #fff;
+}
+#main #reg_form .required_field {
+	color: red;
+	font-size: 12px;
+	position: absolute;
+	top: 10px;
+}
+#main #reg_form .err_msg {
+	color: red;
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+#main #reg_form .success_msg {
+	color: green;
+	font-size: 18px;
+	margin-bottom: 10px;
+}

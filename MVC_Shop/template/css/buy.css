@@ -1,0 +1,136 @@
+.goods {
+	z-index: -10;
+}
+.goods .refer_main {
+	margin-bottom: 25px;
+}
+.goods h2 {
+	color: #0389ED;
+	margin-bottom: 5px;
+}
+.goods .code {
+	color: #000;
+	margin-bottom: 25px;
+}
+.goods hr {
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #5DB312; /* Цвет линии для остальных браузеров */
+    background-color: #5DB312; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px;
+    margin-bottom: 20px;
+}
+.goods .img_holder img{
+	float: left;
+	width: 380px;
+	height: 400px;
+	border: 1px solid #F3F3F3;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.goods .product_info {
+	float: left;
+	position: relative;
+	margin-left: 100px;
+}
+.goods .product_info .price {
+	font-size: 30px;
+	font-weight: bold;
+	color: #5DB312;
+}
+.goods .product_info .buy {
+	display: inline-block;
+	width: 130px;
+	height: 35px;
+	margin-top: 30px;
+	padding-top: 10px;
+	background-color: #0389ED;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+}
+.goods .product_info .buy:hover {
+	background-color: crimson;
+     -moz-transform: scale(1.1,1.1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 550ms;
+}
+.goods .product_info .qty_wrapper {
+	display: inline-block;
+	position: absolute;
+	position: relative;
+	margin-left: 30px;
+	top: 7px;
+}
+.goods .product_info .qty_wrapper input {
+	position: absolute;
+	width: 30px; 
+	height: 23px;
+	text-align: center;
+}
+.goods .product_info .qty_wrapper .increase_qty {
+	margin-left: 38px;
+	cursor: pointer;
+}
+.goods .product_info .qty_wrapper .decrease_qty {
+	cursor: pointer;
+}
+.goods .product_info .availability_true {
+	font-size: 22px;
+	font-weight: bold;
+	color: #5DB312;
+	margin-top: 30px;
+}
+.goods .product_info .availability_false {
+	font-size: 22px;
+	font-weight: bold;
+	color: crimson;
+	margin-top: 30px;
+}
+.goods .product_info .middle_line {
+	width: 712px;
+	border: none; /* Убираем границу для браузера Firefox */
+    color: #F3F3F3; /* Цвет линии для остальных браузеров */
+    background-color: #F3F3F3; /* Цвет линии для браузера Firefox и Opera */
+    height: 1px;
+    margin-top: 25px;
+}
+.goods .product_info .description {
+	display: block;
+	position: relative;
+	overflow: hidden;
+}
+.goods .product_info .description p {
+	font-size: 18px;
+	margin-top: 15px;
+}
+.goods .product_info .description .producer span {
+	padding-left: 40px;
+	color: #666666;
+}
+.goods .product_info .description .volume span {
+	padding-left: 115px;
+	color: #666666;
+}
+.goods .product_info .description .strength span {
+	padding-left: 88px;
+	color: #666666;
+}
+.goods .product_info .description .country span {
+	padding-left: 107px;
+	color: #666666;
+}
+.goods .product_info .waranty {
+	display: flex;
+	width: 450px;
+	margin-top: 20px;
+}
+.goods .product_info .waranty img {
+	width: 50px;
+	height: 50px;
+}
+.goods .product_info .waranty p {
+	margin-left: 15px;
+}
