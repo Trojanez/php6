@@ -1,7 +1,11 @@
-RewriteEngine On
-RewriteBase /
+php_flag display_errors 1
+
+AddDefaultCharset utf-8
+
+RewriteEngine on
+RewriteBase \
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^(.*)$ index.php?$1 [L,QSA]
+RewriteRule ^(.*)$ index.php [L,QSA]

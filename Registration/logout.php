@@ -1,6 +1,6 @@
 <?php 
 
-	require_once 'Db.php';
+	require_once 'app/Db.php';
 
 	unset($_SESSION['name']);
 	unset($_SESSION['email']);

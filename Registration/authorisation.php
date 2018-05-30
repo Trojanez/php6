@@ -1,6 +1,6 @@
 <?php 
 
-	require_once 'Db.php';
+	require_once 'app/Db.php';
 
 	if(isset($_POST['do_signup'])) {
 
@@ -9,8 +9,6 @@
 
 		$user->checkEmpty($loginEmail, 'Enter login');
 		$user->checkEmpty($pass, 'Enter password');
-
-		$user->checkLength($pass, 6, 'Password should be longer then 6 characters.');
 
 		$row = [];
 		$row = $user->checkLogin($loginEmail);
