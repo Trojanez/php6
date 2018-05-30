@@ -1,0 +1,27 @@
+h1 {
+	text-align: center;
+}
+form {
+	width: 250px;
+	margin: auto;
+}
+form input {
+	width: 250px;
+	height: 20px;
+}
+form #birthdate {
+	margin-top: 10px;
+	width: 150px;
+}
+form #country {
+	width: 150px;
+}
+form #agree {
+	width: 15px;
+}
+form #button {
+	width: 70px;
+	height: 30px;
+	color: #000;
+	cursor: pointer;
+}
